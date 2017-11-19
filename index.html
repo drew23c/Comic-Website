@@ -1,0 +1,344 @@
+<!doctype html>
+
+<html>
+  <head>
+    <style>
+    .container-fluid{
+      background-color:#4d4d4d;
+    }
+    .container{
+      background-color:#fff099;
+      padding:2%;
+      border-radius:5%;
+    }
+    .top-bar{
+      height:2px;
+      background-color:black;
+      width:100%;
+    }
+    nav ul li{
+      list-style-type:none;
+      display:inline;
+      margin:5%;
+    }
+    nav ul{
+      text-align:center;
+      font-size:250%;
+    }
+    nav ul li a:hover{
+      text-decoration:none;
+      color:#fff099;
+    }
+    nav ul li a:active{
+      color:black;
+    }
+      .headline{
+        display:none;
+        float:left;
+        margin-left:5%;
+        margin-top:2%;
+        color:yellow;
+        position:relative;
+      }
+      .headline1{
+        display:none;
+        float:left;
+        margin-left:4%;
+        margin-top:2%;
+        color:yellow;
+        position:relative;
+      }
+      .headline2{
+        display:none;
+        float:left;
+        margin-left:4%;
+        margin-top:2%;
+        color:yellow;
+        position:relative;
+      }
+      .headline3{
+        display:none;
+        float:left;
+        margin-left:4%;
+        margin-top:2%;
+        color:yellow;
+        position:relative;
+      }
+      .history .headline{
+        position:absolute;
+      }
+      .villians .headline1{
+        position:absolute;
+      }
+      .legend .headline2{
+        position:absolute;
+      }
+      .weapons .headline3{
+        position:absolute;
+      }
+      .bat-info{
+        float:left;
+      }
+      .content{
+        float:right;
+        width:60%;
+      }
+      .left{
+        float:left;
+        width:60%;
+        margin-left:-30%;
+        background-color:#fff099;
+        border-radius:2%;
+        padding:2%;
+      }
+      .right{
+        float:right;
+        width:60%;
+        background-color:#fff099;
+        padding:2%;
+        border-radius:2%;
+        margin-right:5%;
+      }
+      .content h1{
+        text-align:center;
+      }
+      iframe{
+        margin-top:10%;
+        border-radius:2%;
+      }
+      .vids ul li{
+        display:inline;
+      }
+      #vid1 iframe{
+        width:80%;
+      }
+      #vid2 iframe{
+        width:80%;
+      }
+      #vid3 iframe{
+        width:80%;
+      }
+      table{
+        clear:both;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      footer{
+        height:200px;
+        border-color:white;
+        width:100%;
+        color:white;
+      }
+      @media only screen and (min-width: 800px) and (max-width: 1520px){
+        .content{
+          clear:both;
+          display:block;
+        }
+        .left{
+          
+          height:130%;
+          width:130%;
+          clear:both;
+          margin-right:-70%;
+          margin-bottom:2%;
+          overflow:auto;
+        }
+        .right{
+          
+          height:130%;
+          width:130%;
+          clear:both;
+          margin-left:-80%;
+          overflow:auto;
+        }
+        .bat-info{
+          width:30%;
+        }
+        .history{
+          float:left;
+          padding-bottom:2%;
+          margin-top:-2%;
+        }
+        .villians{
+          float:left;
+          margin-top:-2%;
+        }
+        .legend{
+        margin-left:150%;
+        margin-top:-13%;
+      }
+        .weapons{
+          margin-left:150%;
+          margin-top:-5%;
+          margin-bottom:2%;
+        }
+      }
+    </style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<title>Batman</title>
+  </head>
+  <body>
+    <div class="top-bar"></div>
+   
+    <div class="container-fluid" id="page1">
+       <div class="jumbotron">
+  <div class="container">
+    <a href="#"><img src="jumbo.png"></a>
+    <h1>Welcome to the Batcave</h1>
+  </div>
+</div>
+<nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">History</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="bat-info">
+  <div class="history">
+    <a href="#"><h1 class="headline"><b>History</b></h1>
+    <img src="history.png" alt="batman" id="pic"></a>
+    </div><br>
+    
+    <div class="villians">
+    <a href="#"><h1 class="headline1"><b>Villians</b></h1>
+      <img src="villians.png" alt="batman" id="pic1"></a>
+    </div><br>
+    
+     <div class="legend">
+    <a href="#"><h1 class="headline2"><b>Legend</b></h1>
+      <img src="legend.png" alt="batman" id="pic2"></a>
+    </div><br>
+    
+    <div class="weapons">
+    <a href="#"><h1 class="headline3"><b>Weapons</b></h1>
+      <img src="weapons.png" alt="batman" id="pic3"></a>
+    </div>
+      </div>
+    <article class="content">
+    <aside class="left">
+      <h1>Content</h1>
+      <p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p>
+
+<p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p>
+
+<p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p></aside>
+    <aside class="right">
+      <h1>Content</h1>
+      <p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p>
+
+<p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p>
+
+<p>Lorem ipsum dolor sit amet, pretium id netus justo facilisis vel sit. Cursus nibh nec venenatis lobortis, varius wisi aliquam mauris, venenatis pellentesque fringilla egestas proin. Turpis nullam magna aenean, dictumst risus dolor risus suspendisse dignissim. Potenti sapien praesent ipsum quam. Quis at suscipit pellentesque, rhoncus leo ut sit aliquam quis duis, felis sapien, vitae exercitation lorem. Nibh ut, sit vitae rutrum, tempus per parturient elit lacus fusce, a sit urna eu. Curabitur in luctus orci pede nulla, pede et venenatis sed aliquam.
+Lectus egestas tortor turpis tortor, id praesent quisque accumsan nec purus quisquam, enim tristique risus mattis et scelerisque. Condimentum nibh metus turpis venenatis, diam scelerisque velit nulla ac diam, luctus habitasse commodo arcu pellentesque pellentesque dui. Ut et nec nunc in, ante penatibus turpis justo, sed class justo proin, elit elit in pellentesque sed volutpat ultrices, eros a. Neque non sit, faucibus ac, donec lorem eget mauris blandit, maxime aliquam, eu lacus mi velit ut quis consectetuer. Diam ante, eu libero.</p></aside>
+    </article>
+
+
+<table>
+  <tr>
+<td class="col-md-2" id="vid1">
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/aBJyp2LFHgk" allowfullscreen></iframe>
+</td>
+
+<td class="col-md-2" id="vid2">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xOS6Gcb9T5Q" allowfullscreen></iframe>
+</td>
+<td class="col-md-2" id="vid3">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/myodBkpuPnE" frameborder="0" allowfullscreen></iframe>
+  </td>
+</tr>
+</table>
+
+<footer>
+  <div class="col-md-3">
+    <h1>For the latest news</h1>
+     <div class="input-group">
+      <input type="text" class="form-control" placeholder="Email Address">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Subscribe!</button>
+      </span>
+  </div>
+  
+</footer>
+</div>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+  $(function(){
+    
+$('#pic').on('mouseenter', function(){
+      
+      $('.headline').fadeIn(10, function(){
+      
+      $('#pic').on('mouseleave', function(){
+        
+        $('.headline').fadeOut(10);
+        
+      });
+        
+      });
+      
+      
+    });
+    
+    $('#pic1').on('mouseenter', function(){
+      
+      $('.headline1').fadeIn(10, function(){
+      
+      $('#pic1').on('mouseleave', function(){
+        
+        $('.headline1').fadeOut(10);
+        
+      });
+        
+      });
+      
+    });
+    
+    $('#pic2').on('mouseenter', function(){
+      
+      $('.headline2').fadeIn(10, function(){
+      
+      $('#pic2').on('mouseleave', function(){
+        
+        $('.headline2').fadeOut(10);
+        
+      });
+        
+      });
+      
+    });
+    
+    $('#pic3').on('mouseenter', function(){
+      
+      $('.headline3').fadeIn(10, function(){
+      
+      $('#pic3').on('mouseleave', function(){
+        
+        $('.headline3').fadeOut(10);
+        
+      });
+        
+      });
+      
+    });
+});
+</script>
+  </body>
+</html>
